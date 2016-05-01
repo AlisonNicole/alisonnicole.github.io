@@ -1,0 +1,78 @@
+body{
+	color: #DAE6EF;
+}
+
+/*Padding and Border to at least one element*/
+/*An element styled with an ID*/
+
+#standout{
+	border: 3px solid black;
+	padding-left: 20px;
+}
+
+body{
+	background-color: #455361;
+}
+#hero{
+	width: 200px;
+}
+/*Margin added to at least one element*/
+/*A different font on at least one element*/
+
+#favorites{
+	margin:20px;
+	font-family: Impact, sans-serif;
+	border-bottom: 2px solid #FDFAE9;
+}
+#all-about{
+	margin:20px;
+	font-family: Impact, sans-serif;
+}
+/*At least one centered element*/
+
+h3{
+	text-align: center;
+}
+/*A background image on at least one element*/
+
+h1{
+	border-bottom: 3px solid black;
+	background-image: url(https://s3.amazonaws.com/gameagentassets/mac_games/thumbnails/original/5-id439924718.png?1346948653);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50px;
+}
+
+#pinky{
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table{
+	border:2px solid #FDFAE9;
+}
+
+/*A few elements styled using a class*/
+
+.extras{
+	color: black;
+}
+
+/*A different color for visited links #EFD77D*/
+
+a:visited{
+	color: #EFD77D;
+}
+
+/* Media Query */
+@media screen and (max-width: 500px) {
+  h3{
+    text-align: left;
+  }
+
+  #pinky{
+  	display: inline;
+  }
+}
